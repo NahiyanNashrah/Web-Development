@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	body{
+		background-image: url(download.png);
+		background-repeat: no-repeat;
+		background-position: 95% 5px;
+	}
+	h1{
+		background-color: pink;
+		
+		text-align: center;
+		border-color: green;
+		border-width: 3px;
+		border-style: dashed;
+	}
+	h4 {
+		color: blue;
+		font-style: italic;
+	}
+	p{
+		background-color: thistle;
+		line-height: 150%;
+		margin: 50px;
+	}
+	a:link{
+		color: red;
+		text-decoration:none; 
+	}
+	<!--When already clicked -->
+	a:visited{
+		color:green;
+	}
+	a:hover{
+		background-color: blue;
+		color:white;
+		text-decoration: underline;
+		font: bold;
+	}
+	a:active{
+		background-color: orange;
+	}
+	ul{
+		font-weight: bold;
+	}
+	ol{
+		font-style: italic;
+	}
+	</style>
+</head>
+<body>
+	<h1>CSS Basics</h1>
+
+<p>CSS stands for Cascading Style Sheet.It is the designer of website.It adds colours to font,gives pretty layout.</p>
+<h4>This text is changed using CSS.</h4>
+<p>CSS file contains special tags called <strong>' style '</strong>inside the 'head' tag.<br />The general form is<strong>'style type="text/css"</strong>.To change any element in the website in between the style tags we have to use the <strong>element name(name written inside "< >" bracket).</strong><br />Then within the curly bracket"{ }" specify the <strong>property name and value</strong> followed by a semicolon.The whole form is <br /> <strong>style type="text/css"<br />element name {<br />property name : value ;}style</strong>
+</p>
+
+<h3>Padding</h3>
+<p>Inside the border.<strong>General form : </strong><br /> <em>background-color: colorName</em><br />Here the <strong>background</strong> is the background of given element.Another properties are <strong>padding-left: px</strong>, <strong>padding-right: px</strong></p>
+
+<h3>Border</h3>
+<p><strong>General form : 3 properties are needed</strong><br /> <em>border-color: colorName </em><br /> <em>border-width: px</em><br /> <em>border-style: colorName</em>.<br />Or everything can be specified in one line.<br /><strong>border:px,style,color</strong>
+
+<h3>Margin</h3>
+<p>It surrounds entire element outside the border.<strong>General form : 3 properties are needed</strong><br /> <em>border-color: colorName </em><br /> <em>border-width: px</em><br /> <em>border-style: colorName</em>
+
+
+<h3>Link</h3>
+Link is composed of states which is basically when and how the link is pressed.<br />There is one state for when the page is first visited.There is another state for when th link is clicked.There is another state for as we mousing over the link.And the last state is as we clicking the link.General form : <br />
+<p><a href="https://google.com">This is a link.</a><br />a:link{
+		<strong>color</strong>: red;
+		<strong>text-decoration</strong>:none; 
+	}<br />
+	<!--When already clicked -->
+	a:visited{
+		<strong>color</strong>:green;
+	}<br />
+	a:hover{
+		<strong>background-color</strong>: blue;
+		<strong>color</strong>:white;
+		<strong>text-decoration</strong>: underline;
+		<strong>font</strong>: bold;
+	}<br />
+	a:active{
+		background-color</strong>: orange; </p>
+
+<h3>Line-height</h3>
+This property makes the website more readable by creating spaces among lines.<br />
+eg. line-height: 150%
+<p>How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!How beautiful our life is!</p>
+
+<h3>Bold Text & italicize</h3>
+<p>
+	<ul>
+		<li>Unordered list</li>
+	</ul>
+	<ol>
+		<li>Ordered list</li>
+	</ol>
+</p>
+
+<h3>Add an image in background</h3>
+<p>The element name will be the 'body'.<strong>General form : </strong><br />background-image:url(fileName.extension)<br />To remove repeat: background-repeat: no-repeat<br />To remove repeat at certain direction:repeat-x or repeat-y<br />To place the image at a certain position: background-position: 95% 5px;</p>
+
+</body>
+</html>
